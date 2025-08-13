@@ -38,13 +38,13 @@ document.addEventListener("DOMContentLoaded", function () {
                         <div class="offcanvas-body bg-black">
                             <ul class="nav flex-column">
                                 <li class="nav-item">
-                                    <a class="nav-link text-white fs-5" href="/index.html" title="Inicio">Inicio</a>
+                                    <a class="nav-link text-white fs-5" href="index.html" title="Inicio">Inicio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white fs-5" href="/views/portafolio.html" title="Portafolio">Portafolio</a>
+                                    <a class="nav-link text-white fs-5" href="views/portafolio.html" title="Portafolio">Portafolio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white fs-5" href="/views/contacto.html" title="Contacto">Contacto</a>
+                                    <a class="nav-link text-white fs-5" href="views/contacto.html" title="Contacto">Contacto</a>
                                 </li>
                             </ul>
                         </div>
@@ -56,13 +56,13 @@ document.addEventListener("DOMContentLoaded", function () {
             navbar.innerHTML = `
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link text-white fs-5" href="/index.html">Inicio</a>
+                        <a class="nav-link text-white fs-5" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white fs-5" href="/views/portafolio.html">Portafolio</a>
+                        <a class="nav-link text-white fs-5" href="views/portafolio.html">Portafolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white fs-5" href="/views/contacto.html">Contacto</a>
+                        <a class="nav-link text-white fs-5" href="views/contacto.html">Contacto</a>
                     </li>
                 </ul>
             `;
