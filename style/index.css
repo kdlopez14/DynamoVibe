@@ -49,6 +49,9 @@
 
 /*Página Portafolio*/
 /*Instalaciones*/
+.oculto{
+    display: none;
+}
 .card{
     width: 95%;
     margin: 0px auto;
