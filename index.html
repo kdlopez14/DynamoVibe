@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Final</title>
+    <meta name="description" content="Página web para la realización del ejercicio final del proyecto de la asignatura de Programación Web.">
+    <meta name="keywords" content="Ejercicio Final, Programación Web, Proyecto, Asignatura, Curso">
+    <meta name="author" content="Daniela López">
+    <meta name="robots" content="index, follow">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+    <header>
+        <div class="row align-items-center justify-content-between bg-black">
+            <div class="col-lg-1 col-md-2 order-2 order-md-1 col-4">
+                <img class="img ms-4" src="/imagenes/logo.png" alt="logo">
+            </div>
+            <div class="col-lg-6 col-md-7 order-1 order-md-2 col-3">
+                <!--Menú de Navegación-->
+                <nav class="navbar justify-content-center">
+                    
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--Carrusel-->
+        <section>
+            <div class="row  justify-content-center">
+                <div class="col-lg-10 col-md-11  p-2 d-none d-sm-block">
+                    <div id="carouselExampleInterval" class="carousel slide shadow border border-5 border-light" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="5000">
+                                <img src="/imagenes/carrusel/ofertas.png" class="d-block w-100" alt="Ofertas de verano" width="1391" height="700">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="5000">
+                                <img src="/imagenes/carrusel/beforeFooter.png" class="d-block w-100" alt="Correr en cinta" width="1400" height="700">
+                            </div>
+                            <div class="carousel-item"  data-bs-interval="5000">
+                                <img src="/imagenes/carrusel/fondoEslogan.jpg" class="d-block w-100" alt="Levantar pesas"  width="1450" height="700">
+                            </div>
+                            <div class="carousel-item"  data-bs-interval="5000">
+                                <img src="/imagenes/carrusel/pexels-scottwebb-28080.jpg" class="d-block w-100" alt="Chica entrenando con la cuerda"  width="1662" height="700">
+                            </div>
+                            <div class="carousel-item"  data-bs-interval="5000">
+                                <img src="/imagenes/carrusel/training-828741_960_720.jpg" class="d-block w-100" alt="Chica de espaldas con los musculos marcados"  width="1055" height="700">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center text-center m-5">
+                <div class="col-lg-6 col-md-8 col-sm-9 col-xs-10">
+                    <h2>Sobre Nosotros</h2>
+                    <hr>
+                    <p class="mt-3 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil cum consectetur optio nisi nulla, id doloribus nobis labore animi sunt omnis fuga laborum nostrum vel veniam debitis harum velit. Rem.</p>
+                </div>
+            </div>
+        </section>
+        <!--Cards-->
+        <section>
+            <div class="row justify-content-center mt-5">
+                    <div class="col-lg-2 col-md-5 col-sm-8  mt-4">
+                        <div class="card h-100 card text-center mb-3">
+                            <img src="/imagenes/cards/instalaciones.png" class="card-img-top" alt="Instalaciones" width="646" height="600">
+                            <div class="card-body">
+                                <h5 class="card-title text-warning-emphasis">Instalaciones</h5>
+                                <p class="card-text">En Dynamo Vibe contamos con un espacio moderno y equipado con maquinaria de última generación para que tu entrenamiento sea efectivo y cómodo. Disfruta de zonas amplias, vestuarios limpios y áreas de descanso diseñadas para tu bienestar.</p>
+                                <a href="/views/portafolio.html#instalaciones" class="btn btn-dark">Instalaciones</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-5 col-sm-8  mt-4">
+                        <div class="card h-100 card text-center mb-3">
+                            <img src="/imagenes/cards/entrenadores.jpg" class="card-img-top" alt="Entrenadores" width="710" height="473">
+                            <div class="card-body">
+                                <h5 class="card-title text-warning-emphasis">Entrenadores</h5>
+                                <p class="card-text">Nuestro equipo de entrenadores profesionales está listo para ayudarte a alcanzar tus metas. Con experiencia, dedicación y una atención personalizada, te acompañarán en cada paso de tu progreso fitness.</p>
+                                <a href="/views/contacto.html" class="btn btn-dark">Contacto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-5 col-sm-8 mt-4">
+                        <div class="card h-100 card text-center mb-3">
+                            <img src="/imagenes/cards/spining.png" class="card-img-top" alt="Clase dirigida" width="710" height="598">
+                            <div class="card-body">
+                                <h5 class="card-title text-warning-emphasis">Clases</h5>
+                                <p class="card-text">Ofrecemos una amplia variedad de clases grupales para todos los niveles: yoga, pilates, HIIT, spinning y mucho más. Ven a probar y encuentra la actividad que mejor se adapta a ti para mantenerte motivado y en forma.</p>
+                                <a href="/views/portafolio.html#clases" class="btn btn-dark">Clases</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-5 col-sm-8 mt-4">
+                        <div class="card h-100 card text-center mb-3">
+                            <img src="/imagenes/cards/ofertas.png" class="card-img-top" alt="Ofertas de verano" width="699" height="352">
+                            <div class="card-body">
+                                <h5 class="card-title text-warning-emphasis">Ofertas</h5>
+                                <p class="card-text">Aprovecha nuestras promociones exclusivas en membresías y planes personalizados. En Dynamo Vibe queremos que empieces tu camino fitness con las mejores condiciones y sin que tu bolsillo sufra.</p>
+                                <a href="/views/contacto.html" class="btn btn-dark">Contacto</a>
+                            </div>
+                        </div>
+                    </div>       
+            </div>
+        </section>
+        <!--Peguntas Frecuentes-->
+        <section>
+            <div class="row justify-content-center my-5">
+                <h2 class="text-center">Preguntas Frecuentes</h2>
+                <div class="col-lg-8 col-md-11 col-sm-9 col-xs-10 p-2">
+                    <hr>
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                ¿Cuál es el horario de apertura de Dinamo Vibe?
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                <strong>En Dinamo Vibe sabemos que cada persona tiene un ritmo de vida diferente,</strong> por eso adaptamos nuestros horarios para que siempre encuentres un momento perfecto para entrenar. Abrimos de <strong>lunes a viernes de 6:00 a 23:00</strong>, ideal tanto para quienes madrugan y quieren entrenar antes de trabajar, como para los que prefieren hacerlo al final del día. Los fines de semana y festivos nuestro horario es de 8:00 a 21:00, para que no interrumpas tu rutina de ejercicio ni siquiera en tus días libres. Además, nuestro personal de recepción y los entrenadores estarán disponibles durante todo el horario de apertura para ayudarte con cualquier consulta o asistencia que necesites.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                 ¿Necesito reservar para usar las instalaciones?
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                El acceso a nuestras áreas de musculación, cardio y peso libre es libre, por lo que no necesitas hacer ninguna reserva previa para entrenar por tu cuenta. Sin embargo, para optimizar la experiencia y garantizar tu plaza, sí recomendamos reservar en caso de que quieras participar en clases dirigidas como spinning, yoga, pilates, entrenamiento funcional, zumba o body pump, ya que los cupos son limitados para mantener la calidad de la clase. Puedes hacer tu reserva de forma muy sencilla a través de nuestra app oficial, por teléfono o directamente en la recepción del gimnasio.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                ¿Ofrecen planes de entrenamiento personalizados?
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <strong>Sí. En Dinamo Vibe contamos con un equipo de entrenadores personales.</strong> Diseñarán un plan de entrenamiento completamente adaptado a ti. Antes de comenzar, realizamos una evaluación física inicial para conocer tu estado actual, tus objetivos (ya sea perder peso, ganar masa muscular, mejorar la resistencia o tonificar) y tus posibles limitaciones físicas o lesiones previas. Con esta información, elaboramos un programa con ejercicios específicos, seguimiento constante y ajustes progresivos para que alcances tus metas de manera segura y eficiente. Incluso, podemos complementarlo con recomendaciones nutricionales para maximizar tus resultados.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                ¿Qué tipos de clases ofrece Dinamo Vibe?
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <strong>Queremos que entrenar sea algo que disfrutes,</strong>por eso ofrecemos una gran variedad de clases colectivas diseñadas para todos los niveles y gustos. Entre nuestras opciones encontrarás zumba, spinning, yoga, pilates, entrenamiento funcional, body pump, HIIT, boxeo fitness y estiramientos asistidos. Cada mes actualizamos nuestra parrilla de clases para que siempre tengas algo nuevo que probar y evitar la monotonía. Además, todos nuestros instructores están altamente cualificados y se encargan de motivarte, corregir tu técnica y asegurarse de que trabajes de forma segura y efectiva.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                                ¿Puedo probar el gimnasio antes de inscribirme?
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <strong>¡Por supuesto!</strong> Queremos que conozcas la experiencia Dinamo Vibe antes de tomar tu decisión. Por eso te ofrecemos un pase gratuito de un día, con acceso completo a todas nuestras instalaciones: zona de pesas, cardio, salas de clases y áreas de estiramiento. Así podrás vivir el ambiente del gimnasio, conocer a nuestros entrenadores, probar una clase y comprobar la calidad de nuestros equipos. Solo tienes que solicitar tu pase en la recepción o a través de nuestra página web, y podrás elegir el día que mejor te venga para visitarnos.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                                ¿Tienen servicio de taquillas y vestuarios?
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <strong>Sí, en Dinamo Vibe pensamos en tu comodidad.</strong> Diseñarán un plan de entrenamiento completamente adaptado a ti. Antes de comenzar, realizamos una evaluación física inicial para conocer tu estado actual, tus objetivos (ya sea perder peso, ganar masa muscular, mejorar la resistencia o tonificar) y tus posibles limitaciones físicas o lesiones previas. Con esta información, elaboramos un programa con ejercicios específicos, seguimiento constante y ajustes progresivos para que alcances tus metas de manera segura y eficiente. Incluso, podemos complementarlo con recomendaciones nutricionales para maximizar tus resultados.
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+    </main>
+    <footer>
+        <div class="row bg-black justify-content-lg-around justify-content-sm-center align-items-center text-white p-5">
+            <div class="col-lg-2 col-sm-10">
+                <div>
+                    <img src="imagenes/logo.png" class="img lgFooter" alt="Logo" width="200" height="141" title="Logo">
+                </div>
+                <div id="redesSociales" class="mb-5"> 
+                    <a href="https://www.instagram.com/" title="Instagram" target="_blank"><img src="imagenes/iconos/instagram.png" class="img" alt="Instagram" width="40" height="40" title="Instagram"></a>
+                    <a href="https://web.whatsapp.com/" title="whatsapp" target="_blank"><img src="imagenes/iconos/whatsapp.png" class="img" alt="whatsapp" width="40" height="40" title="whatsapp"></a>
+                    <a href="https://es-es.facebook.com/" title="Facebok" target="_blank"><img src="imagenes/iconos/facebook.png" class="img" alt="Facebok" width="32" height="32" title="Facebok"></a>
+                </div>
+            </div>
+            <div class="col-lg-2  col-sm-10 text-center">
+                <h3 class="mb-4">Sobre Nosotros</h3>
+                <ul id="listaDocumentos" class="mb-5">
+                    <li class="mb-3"><a href="#">Política de Privacidad</a></li>
+                    <li class="mb-3"><a href="#">Condiciones de Uso</a></li>
+                    <li class="mb-3"><a href="#">Política de Cookies</a></li>
+                    <li class="mb-3"><a href="#">Aviso Legal</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-sm-10 text-center">
+                <h3 class="mb-4">Ubicación</h3>
+                <ul id="listaUbicacion">
+                    <li class="mb-3 justify-content-center">
+                        <img src="imagenes/iconos/llamada-telefonica.png"  alt="icono llamada" width="32" height="32" title="Icono Llamada">
+                        <p>+34 901 23 23 23</p>
+                    </li >
+                    <li class="mb-3 justify-content-center">
+                        <img src="imagenes/iconos/ubicacion.png"  alt="icono ubicacion" width="32" height="32" title="Ubicación">
+                        <p> Carrer Berenguera, 9, 46230 Alginet, Valencia</p>
+                    </li>
+                    <li class="mb-3 justify-content-center">
+                        <img src="imagenes/iconos/email.png"  alt="email" width="40" height="40" title="Email">
+                        <p>info@dynamovibe.com</p>
+                    </li>
+                </ul>
+            </div> 
+        </div>
+        <div class="row bg-black text-white">
+             <hr>
+            <p class="text-center">© 2023 Dynamo Vibe</p>
+        </div>
+    </footer>
+    <script src="/js/menu.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <!--Manejo de páginas-->
+    <script src="js/manejoPag.js" defer></script>
+</body>
+</html>
